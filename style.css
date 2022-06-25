@@ -1,0 +1,494 @@
+@font-face {
+    font-family: Raleway;
+    src: url(./assets/Raleway-Italic-VariableFont_wght.ttf);
+    src: url(./assets/Raleway-VariableFont_wght.ttf);
+}
+
+
+* {
+    font-family: Raleway;
+}
+
+body {
+    margin: 0px;
+}
+
+section {
+    margin: 0px 20px 0px 20px;
+
+}
+
+header {
+    margin: 0px 40px 0px 40px;
+}
+
+#img {
+    width: 100px;
+    height: 50px;
+}
+
+
+/* HEADER*/
+
+.BoxHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boxlien {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: 100px;
+}
+
+
+.lien1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    height: 98px;
+    font-weight: bold;
+    width: 100%;
+
+}
+
+.lien1:hover,
+.lien2:hover {
+    border-top: solid 2px #0065fc;
+    color: #0065fc;
+
+}
+
+.lien2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    height: 98px;
+    font-weight: bold;
+    width: 100%;
+
+}
+
+h2 {
+    font-weight: bold;
+}
+
+/*test changement*/
+/*FORMULAIRE*/
+
+.Boxform {
+    height: 50px;
+    width: 350px;
+    margin: 20px 0px 20px 0px;
+}
+
+form {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.Formulaire1 {
+    width: 10%;
+    border: solid 1px;
+    border-radius: 15px 0px 0px 15px;
+    border: solid 2px rgba(128, 128, 128, 0);
+    background-color: #F2F2F2;
+    position: absolute;
+    left: 0%;
+    height: 46px;
+}
+
+.Formulaire2 {
+    width: 55%;
+    height: 100%;
+    position: absolute;
+    right: 35%;
+}
+
+.Formulaire3 {
+    width: 35%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+
+}
+
+#location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+    border-radius: 14px 0px 0px 14px;
+}
+
+#iconesearch {
+    display: none;
+}
+
+
+
+
+
+
+
+.submit {
+    background-color: #0065fc;
+    border-radius: 0px 15px 15px 0px;
+    height: 100%;
+    padding: 0px;
+    width: 100%;
+    border: hidden;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+}
+
+input::placeholder {
+    font-size: 17px;
+    color: black;
+    font-weight: bolder;
+}
+
+.search {
+    height: 92%;
+    padding: 0px;
+    width: 92%;
+    border: solid 2px rgba(128, 128, 128, 0.068);
+    text-decoration: none;
+    padding-left: 12px;
+    padding-right: 5px;
+
+
+
+}
+
+
+/*FILTRE*/
+
+.Allfiltres {
+    display: flex;
+    align-items: center;
+    height: 54px;
+}
+
+.Boxeconomique,
+.Boxfamilial,
+.Boxromantique,
+.Boxanimaux {
+    margin: 0px 15px 0px 15px;
+    display: flex;
+    align-items: center;
+    border: solid 2px #f2f2f2;
+    border-radius: 30px;
+    height: 46px;
+
+}
+
+.economique,
+.familial,
+.Romantique,
+.animauxautorises {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #deebff;
+    border-radius: 50%;
+    margin-left: -2px;
+}
+
+.TextAnimaux,
+.TextEconomique,
+.TextFamilial,
+.TextRomantique {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.Iconefamilial,
+.Iconeeconomique,
+.Iconeanimaux,
+.Iconeromantique {
+    color: #0065fc;
+}
+
+
+
+.Helptext {
+    display: flex;
+    justify-content: flex-start;
+
+    margin: 25px 0px 25px 0px;
+}
+
+.InfoText {
+    padding-left: 20px;
+}
+
+
+#IconeInfo {
+    display: flex;
+    justify-content: center;
+    width: 21px;
+    height: 21px;
+    border: solid 1px rgba(128, 128, 128, 0.219);
+    border-radius: 50%;
+    color: #0065fc;
+}
+
+/*Hebergement*/
+
+
+.BoxHebergementall {
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+    padding: 50px;
+}
+
+
+img {
+    height: 150px;
+    width: auto;
+
+
+
+}
+
+/*Hebergement*/
+
+.CardHebergementetPopulaire {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sizeHebergements {
+    flex: 2;
+    height: 650px;
+    background-color: #F2F2F2;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.sizePopulaire {
+    flex: 1;
+    height: 650px;
+    background-color: #F2F2F2;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.Cardtop,
+.Cardbottom {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.Cardtop {
+    margin: 0px 20px 15px 20px;
+}
+
+.Cardbottom {
+    margin: 0px 20px 15px 20px;
+}
+
+.TitreHebergement {
+    font-size: 20px;
+    margin: 40px 0px 20px 35px;
+    font-weight: bolder;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: large;
+
+
+}
+
+.firstCard,
+.secondcard,
+.thirdcard,
+.fourcard,
+.fivecard,
+.sixcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+
+.ImageHebergement1 {
+    background-image: url("./assets/Img_Hebergement/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.ImageHebergement2 {
+    background-image: url("./assets/Img_Hebergement/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.ImageHebergement3 {
+    background-image: url("./assets/Img_Hebergement/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.ImageHebergement4 {
+    background-image: url("./assets/Img_Hebergement/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.ImageHebergement5 {
+    background-image: url("./assets/Img_Hebergement/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.ImageHebergement6 {
+    background-image: url("./assets/Img_Hebergement/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.TextHebergement {
+    width: 90%;
+
+}
+
+.Afficherplus {
+    font-weight: bold;
+    margin: 15px 0px 0px 35px;
+}
+
+.alltitre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.Titrepopulaires {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    max-height: 20px;
+    margin-top: 20px;
+}
+
+
+.AllCardpopulaires {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 700px;
+}
+
+.Card1populaires,
+.Card2populaires,
+.Card3populaires {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 75%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+.Imgpopulaires1 {
+    background-image: url(./assets/Img_Hebergement/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+    background-position: left;
+    background-size: cover;
+    width: 40%;
+    height: 150px;
+    border-radius: 20px 0px 0px 20px;
+    margin: 4px 0px 4px 4px;
+}
+
+.Imgpopulaires2 {
+    background-image: url(./assets/Img_Hebergement/aw-creative-VGs8z60yT2c-unsplash.jpg);
+    background-position: left;
+    background-size: cover;
+    width: 40%;
+    height: 150px;
+    border-radius: 20px 0px 0px 20px;
+    margin: 4px 0px 4px 4px;
+}
+
+.Imgpopulaires3 {
+    background-image: url(./assets/Img_Hebergement/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+    background-position: left;
+    background-size: cover;
+    width: 40%;
+    height: 150px;
+    border-radius: 20px 0px 0px 20px;
+    margin: 4px 0px 4px 4px;
+}
+
+.BoxTextpopulaire1,
+.BoxTextpopulaire2,
+.BoxTextpopulaire3 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 55%;
+    margin-top: 15px;
+}
+
+
+.Textpopulaires1,
+.Textpopulaires2,
+.Textpopulaires3 {
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+}
+
+
+
+.Etoiles {
+    position: absolute;
+    bottom: 8%;
+}
