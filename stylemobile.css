@@ -83,3 +83,48 @@ nav {
     align-items: center;
     height: 100%;
 }
+
+/*filtres*/
+
+.Allfiltres {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 363px;
+}
+
+.Boxeconomique,
+.Boxfamilial,
+.Boxromantique,
+.Boxanimaux {
+    margin: 7px 0px 7px 0px;
+
+}
+
+.Boxeconomique {
+    margin-right: 10px;
+}
+
+
+
+
+.BoxFiltre {
+    margin: 7px 0px 15px 7px;
+    min-width: 96%;
+
+
+
+}
+
+.TextEconomique {
+    padding: 0px 13px 0px 9px;
+}
+
+.TextFamilial {
+    padding: 0px 13px 0px 9px;
+
+}
+
+.TextRomantique,
+.TextAnimaux {
+    padding: 0px 13px 0px 9px;
+}
