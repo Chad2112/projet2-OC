@@ -276,7 +276,7 @@ img {
 
 .sizeHebergements {
     flex: 2;
-    height: 650px;
+    height: 670px;
     background-color: #F2F2F2;
     margin-right: 20px;
     border-radius: 20px;
@@ -284,7 +284,7 @@ img {
 
 .sizePopulaire {
     flex: 1;
-    height: 650px;
+    height: 670px;
     background-color: #F2F2F2;
     margin-left: 20px;
     border-radius: 20px;
@@ -293,29 +293,36 @@ img {
 .Cardtop,
 .Cardbottom {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
 .Cardtop {
-    margin: 0px 20px 15px 20px;
+    margin: 0px 4% 2% 4%;
 }
 
 .Cardbottom {
-    margin: 0px 20px 15px 20px;
+    margin: 0px 4% 2% 4%;
 }
 
 .TitreHebergement {
     font-size: 20px;
-    margin: 40px 0px 20px 35px;
+    margin: 4% 0% 3% 4%;
     font-weight: bolder;
 }
 
-h3 {
+.Logements {
     font-weight: bold;
     font-size: large;
+    margin: 0px;
+    padding: 6% 0px 2% 0px;
 
 
+}
+
+.prixHebergements {
+    margin: 0px;
+    padding: 3% 0px 3% 0px;
 }
 
 .firstCard,
@@ -327,76 +334,45 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30%;
-    height: auto;
+    width: 29%;
+    height: 225px;
     background-color: white;
     border-radius: 20px;
-    padding: 7px;
+    padding: 0.5%;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.377);
 }
 
-
-.ImageHebergement1 {
-    background-image: url("./assets/Img_Hebergement/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
+img {
+    object-fit: cover;
     width: 100%;
-    height: 120px;
+    height: 100%;
     border-radius: 15px 15px 0 0;
 }
 
-.ImageHebergement2 {
-    background-image: url("./assets/Img_Hebergement/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 120px;
-    border-radius: 15px 15px 0 0;
-}
 
-.ImageHebergement3 {
-    background-image: url("./assets/Img_Hebergement/reisetopia-B8WIgxA_PFU-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 120px;
-    border-radius: 15px 15px 0 0;
-}
-
-.ImageHebergement4 {
-    background-image: url("./assets/Img_Hebergement/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 120px;
-    border-radius: 15px 15px 0 0;
-}
-
-.ImageHebergement5 {
-    background-image: url("./assets/Img_Hebergement/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 120px;
-    border-radius: 15px 15px 0 0;
-}
-
+.ImageHebergement1,
+.ImageHebergement2,
+.ImageHebergement3,
+.ImageHebergement4,
+.ImageHebergement5,
 .ImageHebergement6 {
-    background-image: url("./assets/Img_Hebergement/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
     width: 100%;
     height: 120px;
     border-radius: 15px 15px 0 0;
 }
+
 
 .TextHebergement {
     width: 90%;
+}
 
+.Etoileshebergements {
+    padding: 1% 0% 5% 0%;
 }
 
 .Afficherplus {
     font-weight: bold;
-    margin: 15px 0px 0px 35px;
+    margin: 1% 0px 0px 4%;
 }
 
 .alltitre {
