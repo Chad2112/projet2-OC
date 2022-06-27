@@ -10,7 +10,7 @@
 }
 
 body {
-    margin: 0px;
+    margin: 0px 50px 0px 30px;
 }
 
 section {
@@ -215,6 +215,7 @@ input::placeholder {
 .TextRomantique {
     padding-right: 25px;
     padding-left: 25px;
+    font-weight: bolder;
 }
 
 .Iconefamilial,
@@ -248,26 +249,7 @@ input::placeholder {
     color: #0065fc;
 }
 
-/*Hebergement*/
-
-
-.BoxHebergementall {
-    display: flex;
-    justify-content: space-around;
-    background-color: grey;
-    padding: 50px;
-}
-
-
-img {
-    height: 150px;
-    width: auto;
-
-
-
-}
-
-/*Hebergement*/
+/*Hebergement et populaires*/
 
 .CardHebergementetPopulaire {
     display: flex;
@@ -276,7 +258,7 @@ img {
 
 .sizeHebergements {
     flex: 2;
-    height: 670px;
+    box-sizing: border-box;
     background-color: #F2F2F2;
     margin-right: 20px;
     border-radius: 20px;
@@ -284,38 +266,38 @@ img {
 
 .sizePopulaire {
     flex: 1;
-    height: 670px;
+    box-sizing: border-box;
     background-color: #F2F2F2;
     margin-left: 20px;
     border-radius: 20px;
 }
 
+/* Card hebergement*/
+
 .Cardtop,
 .Cardbottom {
     display: flex;
     justify-content: space-between;
-
-}
-
-.Cardtop {
     margin: 0px 4% 2% 4%;
+    margin-bottom: 3.5%;
+
 }
 
-.Cardbottom {
-    margin: 0px 4% 2% 4%;
-}
 
 .TitreHebergement {
     font-size: 20px;
-    margin: 4% 0% 3% 4%;
+    margin: 5% 0% 3% 4%;
     font-weight: bolder;
 }
 
 .Logements {
-    font-weight: bold;
+    font-weight: 1000;
     font-size: large;
     margin: 0px;
-    padding: 6% 0px 2% 0px;
+    padding: 4% 0px 2% 0px;
+    font-size: 17px;
+    text-transform: capitalize;
+
 
 
 }
@@ -323,6 +305,9 @@ img {
 .prixHebergements {
     margin: 0px;
     padding: 3% 0px 3% 0px;
+    font-size: 15px;
+    font-weight: 600;
+
 }
 
 .firstCard,
@@ -334,19 +319,42 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 29%;
+    width: 96%;
     height: 225px;
     background-color: white;
     border-radius: 20px;
-    padding: 0.5%;
-    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.377);
+    box-shadow: 2px 2px 20px 2px rgba(128, 128, 128, 0.527);
+    padding: 2%;
 }
 
-img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    border-radius: 15px 15px 0 0;
+
+
+.firstCard:hover,
+.secondcard:hover,
+.thirdcard:hover,
+.fourcard:hover,
+.fivecard:hover,
+.sixcard:hover,
+.Card1populaires:hover,
+.Card2populaires:hover,
+.Card3populaires:hover {
+    background-color: rgba(128, 128, 128, 0.068);
+
+
+}
+
+.TextHebergement:hover,
+.Textpopulaires:hover {
+    color: #0065fc;
+}
+
+#lienHebergement {
+    width: 31%;
+    height: 98%;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+
 }
 
 
@@ -356,14 +364,30 @@ img {
 .ImageHebergement4,
 .ImageHebergement5,
 .ImageHebergement6 {
+    object-fit: cover;
     width: 100%;
-    height: 120px;
+    height: 100%;
     border-radius: 15px 15px 0 0;
+
+}
+
+
+.BoxImageHebergement1,
+.BoxImageHebergement2,
+.BoxImageHebergement3,
+.BoxImageHebergement4,
+.BoxImageHebergement5,
+.BoxImageHebergement6 {
+    width: 100%;
+    height: 125px;
+    border-radius: 15px 15px 0 0;
+
 }
 
 
 .TextHebergement {
-    width: 90%;
+    width: 100%;
+    margin-left: 9%;
 }
 
 .Etoileshebergements {
@@ -387,9 +411,9 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 75%;
+    width: 82%;
     max-height: 20px;
-    margin-top: 20px;
+    margin-top: 10%;
 }
 
 
@@ -400,48 +424,64 @@ img {
     max-height: 700px;
 }
 
+#lienpopulaires1,
+#lienpopulaires2,
+#lienpopulaires3 {
+    width: 84%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    margin-top: 5.5%;
+
+}
+
+#lienpopulaires1 {
+    margin-bottom: 3.5%;
+}
+
+#lienpopulaires2 {
+    margin-bottom: 3.5%;
+
+}
+
+#lienpopulaires3 {
+    margin-bottom: 5.5%;
+}
+
+
 .Card1populaires,
 .Card2populaires,
 .Card3populaires {
     display: flex;
     justify-content: space-between;
     position: relative;
-    width: 75%;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    width: 100%;
+    height: 100%;
     background-color: white;
     border-radius: 20px;
+    box-shadow: 2px 2px 20px 2px rgba(128, 128, 128, 0.527);
 }
 
 
-.Imgpopulaires1 {
-    background-image: url(./assets/Img_Hebergement/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
-    background-position: left;
-    background-size: cover;
+.BoxImgpopulaires1,
+.BoxImgpopulaires2,
+.BoxImgpopulaires3 {
+
     width: 40%;
     height: 150px;
-    border-radius: 20px 0px 0px 20px;
-    margin: 4px 0px 4px 4px;
+    margin: 1.5% 0px 1.5% 1.5%;
+
 }
 
-.Imgpopulaires2 {
-    background-image: url(./assets/Img_Hebergement/aw-creative-VGs8z60yT2c-unsplash.jpg);
-    background-position: left;
-    background-size: cover;
-    width: 40%;
-    height: 150px;
+.Imagepopulaires1,
+.Imagepopulaires2,
+.Imagepopulaire3 {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
     border-radius: 20px 0px 0px 20px;
-    margin: 4px 0px 4px 4px;
-}
 
-.Imgpopulaires3 {
-    background-image: url(./assets/Img_Hebergement/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
-    background-position: left;
-    background-size: cover;
-    width: 40%;
-    height: 150px;
-    border-radius: 20px 0px 0px 20px;
-    margin: 4px 0px 4px 4px;
+
 }
 
 .BoxTextpopulaire1,
@@ -451,17 +491,17 @@ img {
     flex-direction: column;
     height: 100%;
     width: 55%;
-    margin-top: 15px;
+    margin: 4.5% 3% 0% 6%;
 }
 
 
-.Textpopulaires1,
-.Textpopulaires2,
-.Textpopulaires3 {
+.Textpopulaires {
     display: flex;
     flex-direction: column;
     font-weight: bolder;
+
 }
+
 
 
 
