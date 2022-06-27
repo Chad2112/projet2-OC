@@ -3,6 +3,10 @@ nav {
     margin: 0px;
 }
 
+body {
+    margin: 0px;
+}
+
 
 
 .BoxHeader {
@@ -32,18 +36,14 @@ nav {
 .lien1:hover,
 .lien2:hover {
     border-bottom: solid 3px #0065fc;
-    color: #0065fc;
     border-top: none;
 
 }
 
 .lien1,
 .lien2 {
-
     border-bottom: solid 3px rgba(128, 128, 128, 0.322);
-
     height: 50%;
-    font-weight: bold;
     width: 100%;
 }
 
@@ -127,4 +127,105 @@ nav {
 .TextRomantique,
 .TextAnimaux {
     padding: 0px 13px 0px 9px;
+}
+
+
+.Cardtop,
+.Cardbottom {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+section {
+    margin: 0px;
+}
+
+
+
+.HeaderFormFiltres {
+
+    margin: 0px 20px 0px 20px;
+
+}
+
+#lienHebergement {
+    width: 100%;
+    margin-bottom: 12%;
+}
+
+.CardHebergementetPopulaire {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+}
+
+.sizeHebergements {
+    margin: 5% 0px 0px 0px;
+    width: 100%;
+    background-color: white;
+}
+
+.sizePopulaire {
+    margin: 0px;
+    width: 100%;
+}
+
+
+.Titrepopulaires {
+    font-size: 17px;
+}
+
+#lienpopulaires1 {
+    margin-bottom: 0%;
+}
+
+
+#lienpopulaires2,
+#lienpopulaires3 {
+    margin-top: 3%;
+    margin-bottom: 0%;
+}
+
+#lienpopulaires3 {
+    margin-bottom: 9%;
+}
+
+
+.TitreHebergement {
+    margin: 7% 0% 5% 6%;
+    font-size: 22px;
+}
+
+.TextHebergement {
+    height: 45%;
+    margin-left: 5%;
+}
+
+#lienHebergement {
+    margin-bottom: 5%;
+}
+
+
+.Etoileshebergements {
+    padding: 2% 0% 0% 0%;
+}
+
+.prixHebergements {
+    padding: 1% 0px 1% 0px;
+}
+
+.NomLogements {
+    padding: 3% 0px 2% 0px;
+}
+
+.Cardtop {
+    margin-bottom: 0%;
+}
+
+.Afficherplus {
+    margin-bottom: 8%;
 }

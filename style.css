@@ -4,7 +4,6 @@
     src: url(./assets/Raleway-VariableFont_wght.ttf);
 }
 
-
 * {
     font-family: Raleway;
 }
@@ -15,7 +14,6 @@ body {
 
 section {
     margin: 0px 20px 0px 20px;
-
 }
 
 header {
@@ -26,7 +24,6 @@ header {
     width: 100px;
     height: 50px;
 }
-
 
 /* HEADER*/
 
@@ -44,26 +41,7 @@ header {
     height: 100px;
 }
 
-
-.lien1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: black;
-    height: 98px;
-    font-weight: bold;
-    width: 100%;
-
-}
-
-.lien1:hover,
-.lien2:hover {
-    border-top: solid 2px #0065fc;
-    color: #0065fc;
-
-}
-
+.lien1,
 .lien2 {
     display: flex;
     justify-content: center;
@@ -73,14 +51,18 @@ header {
     height: 98px;
     font-weight: bold;
     width: 100%;
+}
 
+.lien1:hover,
+.lien2:hover {
+    border-top: solid 2px #0065fc;
+    color: #0065fc;
 }
 
 h2 {
     font-weight: bold;
 }
 
-/*test changement*/
 /*FORMULAIRE*/
 
 .Boxform {
@@ -100,7 +82,7 @@ form {
     border: solid 1px;
     border-radius: 15px 0px 0px 15px;
     border: solid 2px rgba(128, 128, 128, 0);
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
     position: absolute;
     left: 0%;
     height: 46px;
@@ -118,7 +100,6 @@ form {
     height: 100%;
     position: absolute;
     right: 0%;
-
 }
 
 #location {
@@ -134,12 +115,6 @@ form {
 #iconesearch {
     display: none;
 }
-
-
-
-
-
-
 
 .submit {
     background-color: #0065fc;
@@ -167,13 +142,7 @@ input::placeholder {
     text-decoration: none;
     padding-left: 12px;
     padding-right: 5px;
-
-
-
 }
-
-
-
 
 /*FILTRE*/
 
@@ -192,7 +161,6 @@ input::placeholder {
     border: solid 2px rgba(128, 128, 128, 0.308);
     border-radius: 30px;
     height: 46px;
-
 }
 
 .economique,
@@ -225,19 +193,15 @@ input::placeholder {
     color: #0065fc;
 }
 
-
-
 .Helptext {
     display: flex;
     justify-content: flex-start;
-
     margin: 25px 0px 25px 0px;
 }
 
 .InfoText {
     padding-left: 20px;
 }
-
 
 #IconeInfo {
     display: flex;
@@ -259,7 +223,7 @@ input::placeholder {
 .sizeHebergements {
     flex: 2;
     box-sizing: border-box;
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
     margin-right: 20px;
     border-radius: 20px;
 }
@@ -267,7 +231,7 @@ input::placeholder {
 .sizePopulaire {
     flex: 1;
     box-sizing: border-box;
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
     margin-left: 20px;
     border-radius: 20px;
 }
@@ -278,11 +242,8 @@ input::placeholder {
 .Cardbottom {
     display: flex;
     justify-content: space-between;
-    margin: 0px 4% 2% 4%;
-    margin-bottom: 3.5%;
-
+    margin: 0px 4% 3.5% 4%;
 }
-
 
 .TitreHebergement {
     font-size: 20px;
@@ -290,16 +251,13 @@ input::placeholder {
     font-weight: bolder;
 }
 
-.Logements {
+.NomLogements {
     font-weight: 1000;
     font-size: large;
     margin: 0px;
     padding: 4% 0px 2% 0px;
     font-size: 17px;
     text-transform: capitalize;
-
-
-
 }
 
 .prixHebergements {
@@ -307,7 +265,6 @@ input::placeholder {
     padding: 3% 0px 3% 0px;
     font-size: 15px;
     font-weight: 600;
-
 }
 
 .firstCard,
@@ -327,8 +284,6 @@ input::placeholder {
     padding: 2%;
 }
 
-
-
 .firstCard:hover,
 .secondcard:hover,
 .thirdcard:hover,
@@ -339,8 +294,6 @@ input::placeholder {
 .Card2populaires:hover,
 .Card3populaires:hover {
     background-color: rgba(128, 128, 128, 0.068);
-
-
 }
 
 .TextHebergement:hover,
@@ -354,9 +307,7 @@ input::placeholder {
     text-decoration: none;
     color: black;
     border-radius: 20px;
-
 }
-
 
 .ImageHebergement1,
 .ImageHebergement2,
@@ -368,9 +319,7 @@ input::placeholder {
     width: 100%;
     height: 100%;
     border-radius: 15px 15px 0 0;
-
 }
-
 
 .BoxImageHebergement1,
 .BoxImageHebergement2,
@@ -381,9 +330,7 @@ input::placeholder {
     width: 100%;
     height: 125px;
     border-radius: 15px 15px 0 0;
-
 }
-
 
 .TextHebergement {
     width: 100%;
@@ -399,13 +346,12 @@ input::placeholder {
     margin: 1% 0px 0px 4%;
 }
 
-.alltitre {
+.Boxtitre {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
-
 
 .Titrepopulaires {
     display: flex;
@@ -415,7 +361,6 @@ input::placeholder {
     max-height: 20px;
     margin-top: 10%;
 }
-
 
 .AllCardpopulaires {
     display: flex;
@@ -432,7 +377,6 @@ input::placeholder {
     text-decoration: none;
     color: black;
     margin-top: 5.5%;
-
 }
 
 #lienpopulaires1 {
@@ -441,13 +385,11 @@ input::placeholder {
 
 #lienpopulaires2 {
     margin-bottom: 3.5%;
-
 }
 
 #lienpopulaires3 {
     margin-bottom: 5.5%;
 }
-
 
 .Card1populaires,
 .Card2populaires,
@@ -462,15 +404,12 @@ input::placeholder {
     box-shadow: 2px 2px 20px 2px rgba(128, 128, 128, 0.527);
 }
 
-
 .BoxImgpopulaires1,
 .BoxImgpopulaires2,
 .BoxImgpopulaires3 {
-
     width: 40%;
     height: 150px;
     margin: 1.5% 0px 1.5% 1.5%;
-
 }
 
 .Imagepopulaires1,
@@ -480,8 +419,6 @@ input::placeholder {
     width: 100%;
     height: 100%;
     border-radius: 20px 0px 0px 20px;
-
-
 }
 
 .BoxTextpopulaire1,
@@ -494,18 +431,94 @@ input::placeholder {
     margin: 4.5% 3% 0% 6%;
 }
 
-
 .Textpopulaires {
     display: flex;
     flex-direction: column;
     font-weight: bolder;
-
 }
-
-
-
 
 .Etoiles {
     position: absolute;
     bottom: 8%;
+}
+
+.Toutesactivites {
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+    box-sizing: content-box;
+    height: 500px;
+    width: auto;
+    background-color: grey;
+    margin-bottom: 20%;
+}
+
+.BoxFortetIles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+    width: 25%;
+    border: solid 4px red;
+}
+
+.BoxVieuxPort {
+    height: 90%;
+    width: 25%;
+    border: solid 4px red;
+}
+
+.BoxFortdepomègues {
+    height: 65%;
+    width: 100%;
+    border: solid 4px red;
+}
+
+.BoxIlesdeFrioul {
+    height: 35%;
+    width: 100%;
+    border: solid 4px red;
+}
+
+.BoxParcNational {
+    height: 90%;
+    width: 25%;
+    border: solid 4px red;
+}
+
+.Boxnotredameetparclong {
+
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 25%;
+    border: solid 4px red;
+
+}
+
+.BoxNotreDame {
+    height: 65%;
+    width: 100%;
+    border: solid 4px red;
+}
+
+.BoxParcLongchamp {
+
+    height: 35%;
+    width: 100%;
+    border: solid 4px red;
+
+}
+
+.BoxImgVieuxport,
+.BoxImgFortdepomègues,
+.BoxImgIlesdeFrioul,
+.BoxImgParcNational,
+.BoxImgNotreDame,
+.BoxImgParcLongchamp {
+    height: 75%;
+}
+
+.Nomactivites {
+    height: 25%;
 }
