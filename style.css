@@ -246,25 +246,25 @@ input::placeholder {
 }
 
 .TitreHebergement {
-    font-size: 20px;
+    font-size: 25px;
     margin: 5% 0% 3% 4%;
-    font-weight: bolder;
+    font-weight: 1000;
 }
 
-.NomLogements {
-    font-weight: 1000;
+.NomLogementsHebergement {
+    font-weight: bold;
     font-size: large;
     margin: 0px;
-    padding: 4% 0px 2% 0px;
-    font-size: 17px;
-    text-transform: capitalize;
+    padding: 4% 0px 1% 0px;
+    font-size: 20px;
+
 }
 
 .prixHebergements {
     margin: 0px;
-    padding: 3% 0px 3% 0px;
+    padding: 2% 0px 2% 0px;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .firstCard,
@@ -334,7 +334,10 @@ input::placeholder {
 
 .TextHebergement {
     width: 100%;
+    height: 47%;
     margin-left: 9%;
+    position: relative;
+
 }
 
 .Etoileshebergements {
@@ -360,6 +363,7 @@ input::placeholder {
     width: 82%;
     max-height: 20px;
     margin-top: 10%;
+    font-size: 22px;
 }
 
 .AllCardpopulaires {
@@ -412,6 +416,18 @@ input::placeholder {
     margin: 1.5% 0px 1.5% 1.5%;
 }
 
+.NomLogementspopulaire {
+    font-weight: bolder;
+    font-size: 19px;
+    margin: 9% 0% 0% 0%;
+
+}
+
+.Prixpopulaires {
+    margin: 4% 0% 23% 0%;
+}
+
+
 .Imagepopulaires1,
 .Imagepopulaires2,
 .Imagepopulaire3 {
@@ -428,28 +444,28 @@ input::placeholder {
     flex-direction: column;
     height: 100%;
     width: 55%;
-    margin: 4.5% 3% 0% 6%;
-}
+    margin: 0% 3% 0% 6%;
 
-.Textpopulaires {
-    display: flex;
-    flex-direction: column;
-    font-weight: bolder;
 }
 
 .Etoiles {
     position: absolute;
-    bottom: 8%;
+    bottom: 4%;
 }
+
+
+
+
+/*ACTIVITES*/
 
 .Toutesactivites {
     display: flex;
     align-items: flex-start;
-    align-items: center;
+    justify-content: space-between;
     box-sizing: content-box;
     height: 500px;
     width: auto;
-    background-color: grey;
+
     margin-bottom: 20%;
 }
 
@@ -457,68 +473,114 @@ input::placeholder {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 90%;
-    width: 25%;
-    border: solid 4px red;
+    height: 100%;
+    width: 18%;
+
+
 }
 
 .BoxVieuxPort {
-    height: 90%;
-    width: 25%;
-    border: solid 4px red;
+    height: 98%;
+    width: 18%;
+    border: solid 1px red;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+
+
 }
 
 .BoxFortdepomègues {
-    height: 65%;
+    height: 55%;
     width: 100%;
-    border: solid 4px red;
+    border: solid 1px red;
+
+    position: relative;
+    overflow: hidden;
 }
 
 .BoxIlesdeFrioul {
-    height: 35%;
+    height: 38%;
     width: 100%;
-    border: solid 4px red;
+    border: solid 1px red;
+    margin-top: 5%;
 }
 
 .BoxParcNational {
-    height: 90%;
-    width: 25%;
-    border: solid 4px red;
+    height: 100%;
+    width: 20%;
+    border: solid 1px red;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+
+    border: solid 1px red;
 }
 
 .Boxnotredameetparclong {
 
     display: flex;
     flex-direction: column;
-    height: 90%;
+    height: 100%;
     width: 25%;
-    border: solid 4px red;
+    border: solid 1px red;
+
 
 }
 
 .BoxNotreDame {
     height: 65%;
     width: 100%;
-    border: solid 4px red;
+    border: solid 1px red;
 }
 
 .BoxParcLongchamp {
 
     height: 35%;
     width: 100%;
-    border: solid 4px red;
+    border: solid 1px red;
 
 }
 
-.BoxImgVieuxport,
+.BoxImgVieuxport {
+    height: 87%;
+    overflow: hidden;
+
+    position: relative;
+}
+
 .BoxImgFortdepomègues,
 .BoxImgIlesdeFrioul,
 .BoxImgParcNational,
 .BoxImgNotreDame,
 .BoxImgParcLongchamp {
     height: 75%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+
 }
 
 .Nomactivites {
-    height: 25%;
+    height: 13%;
+    background-color: white;
+
+}
+
+
+
+.ImgVieuxport {
+
+    position: absolute;
+    left: -60%;
+
+
+}
+
+.ImgFortdepomègues {
+
+    position: absolute;
+    top: -67%;
+    left: 0%;
+
 }
