@@ -7,14 +7,11 @@ body {
     margin: 0px;
 }
 
-
-
 .BoxHeader {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-
 }
 
 .boxlogo {
@@ -23,8 +20,6 @@ body {
     min-width: 200px;
     max-height: 50px;
     padding: 10px;
-
-
 }
 
 .boxlien {
@@ -32,12 +27,10 @@ body {
     max-height: 50px;
 }
 
-
 .lien1:hover,
 .lien2:hover {
     border-bottom: solid 3px #0065fc;
     border-top: none;
-
 }
 
 .lien1,
@@ -97,22 +90,15 @@ body {
 .Boxromantique,
 .Boxanimaux {
     margin: 7px 0px 7px 0px;
-
 }
 
 .Boxeconomique {
     margin-right: 10px;
 }
 
-
-
-
 .BoxFiltre {
     margin: 7px 0px 15px 7px;
     min-width: 96%;
-
-
-
 }
 
 .TextEconomique {
@@ -121,7 +107,6 @@ body {
 
 .TextFamilial {
     padding: 0px 13px 0px 9px;
-
 }
 
 .TextRomantique,
@@ -129,26 +114,18 @@ body {
     padding: 0px 13px 0px 9px;
 }
 
-
 .Cardtop,
 .Cardbottom {
     display: flex;
     flex-direction: column;
-
 }
-
-
 
 section {
     margin: 0px;
 }
 
-
-
 .HeaderFormFiltres {
-
     margin: 0px 20px 0px 20px;
-
 }
 
 #lienHebergement {
@@ -160,7 +137,6 @@ section {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-
 }
 
 .sizeHebergements {
@@ -174,7 +150,6 @@ section {
     width: 100%;
 }
 
-
 .Titrepopulaires {
     font-size: 17px;
 }
@@ -182,7 +157,6 @@ section {
 #lienpopulaires1 {
     margin-bottom: 0%;
 }
-
 
 #lienpopulaires2,
 #lienpopulaires3 {
@@ -193,7 +167,6 @@ section {
 #lienpopulaires3 {
     margin-bottom: 9%;
 }
-
 
 .TitreHebergement {
     margin: 7% 0% 5% 6%;
@@ -208,7 +181,6 @@ section {
 #lienHebergement {
     margin-bottom: 5%;
 }
-
 
 .Etoileshebergements {
     padding: 2% 0% 0% 0%;
