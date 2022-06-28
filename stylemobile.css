@@ -201,3 +201,98 @@ section {
 .Afficherplus {
     margin-bottom: 8%;
 }
+
+.Toutesactivites {
+    flex-direction: column;
+    height: 1500px;
+}
+
+.Cardleftactivite {
+    flex-direction: column;
+    width: 100%;
+}
+
+.cardrightactivite {
+    flex-direction: column;
+    width: 100%;
+}
+
+.BoxVieuxPort,
+.BoxFortetIles,
+.BoxParcNational,
+.BoxNotreDame,
+.Boxnotredameetparclong {
+    width: 100%;
+    padding: 0%;
+}
+
+.BoxVieuxPort,
+.BoxParcNational {
+    height: 33%;
+    margin: 0%;
+}
+
+.BoxFortetIles,
+.Boxnotredameetparclong {
+    height: 66%;
+}
+
+.BoxFortdepomègues,
+.BoxIlesdeFrioul,
+.BoxNotreDame,
+.BoxParcLongchamp {
+    height: 50%;
+}
+
+.BoxImgVieuxport,
+.BoxImgFortdepomègues,
+.BoxImgIlesdeFrioul,
+.BoxImgParcNational,
+.BoxImgNotreDame,
+.BoxImgParcLongchamp {
+    height: 75%;
+}
+
+.Nomactivitesvieuxport,
+.Nomactivitesfort,
+.Nomactivitesiles,
+.Nomactivitesparcnational,
+.Nomactivitesnotredame,
+.Nomactivitesparclong {
+    height: 25%;
+}
+
+.ImgVieuxport {
+    height: 300px;
+    left: 0%;
+}
+
+.ImgFortdepomègues {
+    height: 550px;
+    top: -81%;
+    width: 416px;
+}
+
+.ImgIlesdeFrioul {
+    height: 337px;
+    top: -28%;
+    width: 415px;
+}
+
+
+.ImgParcNational {
+    height: 305px;
+    top: -12%;
+    left: 0%;
+}
+
+.ImgNotreDame {
+    height: 300px;
+    top: -11%;
+}
+
+.ImgParcLongchamp {
+    height: 300px;
+    top: -12%;
+    left: 0%;
+}
