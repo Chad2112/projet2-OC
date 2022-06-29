@@ -686,3 +686,33 @@ h4 {
     width: 49%;
 
 }
+
+
+footer {
+    height: 250px;
+    width: 100%;
+    background-color: grey;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.premieresection {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+
+.deuxiemesection {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+
+.troisiemesection {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
