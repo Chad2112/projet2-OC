@@ -205,7 +205,7 @@ section {
 .Toutesactivites {
     flex-direction: column;
     height: 1500px;
-    margin: 0% 2% 0% 2%;
+    margin: 0% 5% 0% 5%;
 }
 
 .Cardleftactivite {
@@ -266,18 +266,19 @@ section {
 .ImgVieuxport {
     height: 300px;
     left: 0%;
+    width: 100%;
 }
 
 .ImgFortdepomègues {
     height: 550px;
     top: -81%;
-    width: 416px;
+    width: 100%;
 }
 
 .ImgIlesdeFrioul {
     height: 337px;
     top: -28%;
-    width: 415px;
+    width: 100%;
 }
 
 
@@ -285,6 +286,7 @@ section {
     height: 305px;
     top: -12%;
     left: 0%;
+    width: 100%;
 }
 
 .ImgNotreDame {

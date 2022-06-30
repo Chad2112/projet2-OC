@@ -572,10 +572,11 @@ h4 {
 
 
 .ImgIlesdeFrioul {
-    width: 392px;
+    width: 100%;
     position: absolute;
-    top: -22%;
+    top: 0%;
 }
+
 
 
 .Nomactivitesiles {
