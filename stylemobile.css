@@ -7,14 +7,22 @@ main {
     margin: 0px;
 }
 
-.BoxHeader {
+section {
+    margin: 0px;
+}
+
+.Header-Formulaire-Filtres {
+    margin: 0px 20px 0px 20px
+}
+
+.Box-Header {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
 
-.boxlogo {
+.box-logo {
     display: flex;
     justify-content: center;
     min-width: 200px;
@@ -22,42 +30,42 @@ main {
     padding: 10px;
 }
 
-.boxlien {
+.box-lien {
     width: 100%;
     max-height: 50px;
 }
 
-.lien1:hover,
-.lien2:hover {
+.lien-1:hover,
+.lien-2:hover {
     border-bottom: solid 3px #0065fc;
     border-top: none;
 }
 
-.lien1,
-.lien2 {
+.lien-1,
+.lien-2 {
     border-bottom: solid 3px rgba(128, 128, 128, 0.322);
     height: 50%;
     width: 100%;
 }
 
-#img {
+#img-logo {
     padding-left: 30px;
 }
 
-.Boxform {
+.Box-formulaire {
     max-width: 316px;
 }
 
-.Formulaire1 {
+.Formulaire-1 {
     width: 15%;
 }
 
-.Formulaire2 {
+.Formulaire-2 {
     width: 73%;
     right: 11%;
 }
 
-.Formulaire3 {
+.Formulaire-3 {
     width: 15%;
     right: 0%;
     background-color: #0065fc;
@@ -70,7 +78,7 @@ main {
     display: none;
 }
 
-#iconesearch {
+#iconerecherche {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,222 +87,222 @@ main {
 
 /*filtres*/
 
-.Allfiltres {
+.Tout-les-filtres {
     flex-wrap: wrap;
     align-items: flex-start;
     max-width: 363px;
 }
 
-.Boxeconomique,
-.Boxfamilial,
-.Boxromantique,
-.Boxanimaux {
+.Box-economique,
+.Box-familial,
+.Box-romantique,
+.Box-animaux {
     margin: 7px 0px 7px 0px;
 }
 
-.Boxeconomique {
+.Box-economique {
     margin-right: 10px;
 }
 
-.BoxFiltre {
+.Box-Filtre {
     margin: 7px 0px 15px 7px;
     min-width: 96%;
 }
 
-.TextEconomique {
+.Texte-Economique {
     padding: 0px 13px 0px 9px;
 }
 
-.TextFamilial {
+.Texte-Familial {
     padding: 0px 13px 0px 9px;
 }
 
-.TextRomantique,
-.TextAnimaux {
+.Texte-Romantique,
+.Texte-Animaux {
     padding: 0px 13px 0px 9px;
 }
 
-.Cardtop,
-.Cardbottom {
+.Card-haut,
+.Card-bas {
     display: flex;
     flex-direction: column;
 }
 
-section {
-    margin: 0px;
-}
 
-.HeaderFormFiltres {
-    margin: 0px 20px 0px 20px;
-}
 
-#lienHebergement {
+
+#lien-Hebergement {
     width: 100%;
     margin-bottom: 12%;
 }
 
-.CardHebergementetPopulaire {
+.Card-Hebergement-Populaire {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
 }
 
-.sizeHebergements {
+.taille-Hebergements {
     margin: 5% 0px 0px 0px;
     width: 100%;
     background-color: white;
 }
 
-.sizePopulaire {
+.taille-Populaire {
     margin: 0px;
     width: 100%;
 }
 
-.Titrepopulaires {
+.Titre-populaires {
     font-size: 17px;
 }
 
-#lienpopulaires1 {
+#lien-populaires-1 {
     margin-bottom: 0%;
 }
 
-#lienpopulaires2,
-#lienpopulaires3 {
+#lien-populaires-2,
+#lien-populaires-3 {
     margin-top: 3%;
     margin-bottom: 0%;
 }
 
-#lienpopulaires3 {
+#lien-populaires-3 {
     margin-bottom: 9%;
 }
 
-.TitreHebergement {
+.Titre-Hebergement {
     margin: 7% 0% 5% 6%;
     font-size: 22px;
 }
 
-.TextHebergement {
+.Texte-Hebergement {
     height: 45%;
     margin-left: 5%;
 }
 
-#lienHebergement {
+#lien-Hebergement {
     margin-bottom: 5%;
 }
 
-.Etoileshebergements {
-    padding: 2% 0% 0% 0%;
-}
-
-.prixHebergements {
+.prix-Hebergements {
     padding: 1% 0px 1% 0px;
 }
 
-.NomLogements {
-    padding: 3% 0px 2% 0px;
-}
-
-.Cardtop {
+.Card-haut {
     margin-bottom: 0%;
 }
 
-.Afficherplus {
+.Afficher-plus {
     margin-bottom: 8%;
 }
 
-.Toutesactivites {
+.titre-activite {
+    margin-left: 5%;
+}
+
+.Toutes-activites {
     flex-direction: column;
     height: 1500px;
     margin: 0% 5% 0% 5%;
 }
 
-.Cardleftactivite {
+.Card-gauche-activite {
     flex-direction: column;
     width: 100%;
 }
 
-.cardrightactivite {
+.card-droite-activite {
     flex-direction: column;
     width: 100%;
 }
 
-.BoxVieuxPort,
-.BoxFortetIles,
-.BoxParcNational,
-.BoxNotreDame,
-.Boxnotredameetparclong {
+.Box-Vieux-Port,
+.Box-Fort-et-Iles,
+.Box-Parc-National,
+.Box-Notre-Dame,
+.Box-notre-dame-et-parclong {
     width: 100%;
     padding: 0%;
 }
 
-.BoxVieuxPort,
-.BoxParcNational {
+.Box-Vieux-Port,
+.Box-Parc-National {
     height: 33%;
     margin: 0%;
+
+    margin-bottom: 7%;
 }
 
-.BoxFortetIles,
-.Boxnotredameetparclong {
+.Box-Fort-et-Iles,
+.Box-notre-dame-et-parclong {
     height: 66%;
 }
 
-.BoxFortdepomègues,
-.BoxIlesdeFrioul,
-.BoxNotreDame,
-.BoxParcLongchamp {
+.Box-Fort-de-pomègues,
+.Box-Iles-de-Frioul,
+.Box-Notre-Dame,
+.Box-Parc-Longchamp {
     height: 50%;
 }
 
-.BoxImgVieuxport,
-.BoxImgFortdepomègues,
-.BoxImgIlesdeFrioul,
-.BoxImgParcNational,
-.BoxImgNotreDame,
-.BoxImgParcLongchamp {
+.Box-Img-Vieux-port,
+.Box-Img-Fort-de-pomègues,
+.Box-Img-Iles-de-Frioul,
+.Box-Img-Parc-National,
+.Box-Img-Notre-Dame,
+.Box-Img-Parc-Longchamp {
     height: 75%;
+
 }
 
-.Nomactivitesvieuxport,
-.Nomactivitesfort,
-.Nomactivitesiles,
-.Nomactivitesparcnational,
-.Nomactivitesnotredame,
-.Nomactivitesparclong {
+.Box-Parc-National,
+.Box-Parc-Longchamp,
+.Box-Iles-de-Frioul {
+    margin-top: 7%;
+}
+
+.Nom-activites-vieux-port,
+.Nom-activites-fort,
+.Nom-activites-iles,
+.Nom-activites-parc-national,
+.Nom-activites-notre-dame,
+.Nom-activites-parclong {
     height: 25%;
 }
 
-.ImgVieuxport {
+.Img-Vieux-port {
     height: 300px;
     left: 0%;
     width: 100%;
 }
 
-.ImgFortdepomègues {
+.Img-Fort-de-pomègues {
     height: 550px;
-    top: -81%;
+    top: -108%;
     width: 100%;
 }
 
-.ImgIlesdeFrioul {
+.Img-Iles-de-Frioul {
     height: 337px;
     top: -28%;
     width: 100%;
 }
 
 
-.ImgParcNational {
+.Img-Parc-National {
     height: 305px;
-    top: -12%;
+    top: -25%;
     left: 0%;
     width: 100%;
 }
 
-.ImgNotreDame {
-    height: 300px;
+.Img-Notre-Dame {
+    height: 275px;
     top: -11%;
 }
 
-.ImgParcLongchamp {
+.Img-Parc-Longchamp {
     height: 300px;
     top: -12%;
     left: 0%;
@@ -307,7 +315,7 @@ footer {
     height: 100%;
 }
 
-.troisiemesection {
+.troisieme-section {
     padding-bottom: 10%;
 
 }
