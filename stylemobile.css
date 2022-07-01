@@ -149,7 +149,7 @@ section {
 
 .taille-Hebergements {
     margin: 5% 0px 0px 0px;
-    width: 100%;
+    width: 90%;
     background-color: white;
 }
 
@@ -159,7 +159,8 @@ section {
 }
 
 .Toute-Card-populaires {
-    margin: 0% 4% 0% 4%;
+    margin: 0% 0% 0% 4%;
+    width: 90%;
 }
 
 .Titre-populaires {
@@ -210,13 +211,15 @@ section {
 }
 
 .titre-activite {
-    margin-left: 5%;
+    margin: 0% 0% 0% 10%;
+    width: 90%;
 }
+
 
 .Toutes-activites {
     flex-direction: column;
     height: 1500px;
-    margin: 0% 5% 0% 5%;
+    margin: 0% 8% 0% 8%;
 }
 
 .Card-gauche-activite {
