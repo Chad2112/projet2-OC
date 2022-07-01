@@ -1,5 +1,5 @@
 body {
-    margin: 0% 2% 0% 2%;
+    margin: 0%;
 }
 
 section {
@@ -143,4 +143,9 @@ section {
     position: absolute;
     top: -3%;
     left: -39%;
+}
+
+footer {
+    margin-left: 0%;
+    margin-right: 0%;
 }

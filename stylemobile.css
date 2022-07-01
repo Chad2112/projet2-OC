@@ -131,7 +131,12 @@ section {
 
 
 
-#lien-Hebergement {
+#lien-Hebergement-1,
+#lien-Hebergement-2,
+#lien-Hebergement-3,
+#lien-Hebergement-4,
+#lien-Hebergement-5,
+#lien-Hebergement-6 {
     width: 100%;
     margin-bottom: 12%;
 }
@@ -150,12 +155,19 @@ section {
 
 .taille-Populaire {
     margin: 0px;
-    width: 100%;
+    width: 107%;
+}
+
+.Toute-Card-populaires {
+    margin: 0% 4% 0% 4%;
 }
 
 .Titre-populaires {
     font-size: 17px;
+    margin-left: 12%;
+    margin-right: 12%;
 }
+
 
 #lien-populaires-1 {
     margin-bottom: 0%;
