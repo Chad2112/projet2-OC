@@ -531,22 +531,25 @@ a {
 .Box-Vieux-Port {
     height: 100%;
     width: 40%;
-    position: relative;
-    overflow: hidden;
     border-radius: 20px;
     box-shadow: 2px 2px 20px 2px rgba(128, 128, 128, 0.527);
 }
 
 .Box-Img-Vieux-port {
     height: 87%;
-    overflow: hidden;
 
-    position: relative;
 }
 
-.Img-Vieux-port {
-    position: absolute;
-    left: -50%;
+.Img-Vieux-port,
+.Img-Fort-de-pomègues,
+.Img-Iles-de-Frioul,
+.Img-Parc-National,
+.Img-Notre-Dame,
+.Img-Parc-Longchamp {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .Nom-activites-vieux-port {
@@ -575,17 +578,9 @@ a {
 
 .Box-Img-Fort-de-pomègues {
     height: 78%;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
+
 }
 
-.Img-Fort-de-pomègues {
-    width: 366px;
-    position: absolute;
-    top: -61%;
-    left: 0%;
-}
 
 
 .Nom-activites-fort {
@@ -613,20 +608,9 @@ h4 {
 
 .Box-Img-Iles-de-Frioul {
     height: 70%;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    border-radius: 20px 20px 0px 0px;
 
 }
 
-
-.Img-Iles-de-Frioul {
-    height: 220px;
-    width: 100%;
-    position: absolute;
-    top: -8%;
-}
 
 
 
@@ -646,17 +630,9 @@ h4 {
 
 .Box-Img-Parc-National {
     height: 87%;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
+
 }
 
-.Img-Parc-National {
-    height: 514px;
-    position: absolute;
-    top: -4%;
-    left: -60%;
-}
 
 .Nom-activites-parc-national {
     height: 13%;
@@ -681,20 +657,9 @@ h4 {
 
 .Box-Img-Notre-Dame {
     height: 72%;
-    ;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    border-radius: 20px 20px 0px 0px;
-}
-
-.Img-Notre-Dame {
-    width: 100%;
-    height: 227px;
-    position: absolute;
-    top: 0%;
 
 }
+
 
 .Nom-activites-notre-dame {
     height: 25%;
@@ -710,17 +675,7 @@ h4 {
 
 .Box-Img-Parc-Longchamp {
     height: 75%;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-}
 
-.Img-Parc-Longchamp {
-    height: 314px;
-    width: 100%;
-    border-radius: 20px 20px 0px 0px;
-    position: absolute;
-    top: -30%;
 }
 
 

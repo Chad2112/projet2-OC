@@ -102,13 +102,13 @@ section {
 
 .Card-gauche-activite {
     width: 100%;
-    height: 100%;
+    height: 50%;
     margin-bottom: 3%;
 }
 
 .card-droite-activite {
     width: 100%;
-    height: 100%;
+    height: 50%;
     margin-top: 3%;
 }
 
@@ -116,10 +116,7 @@ section {
     width: 48%;
 }
 
-.Img-Vieux-port {
-    height: 422px;
-    left: -7%;
-}
+
 
 .Box-Fort-et-Iles {
     padding: 0%;
@@ -128,27 +125,15 @@ section {
     width: 47%;
 }
 
-.Img-Fort-de-pomègues {
-    width: 440px;
-    top: -104%;
-    left: 0%;
-}
 
-.Img-Iles-de-Frioul {
-    top: -27%;
-}
+
+
 
 .Box-Parc-National {
     margin: 0%;
     width: 48%;
 }
 
-.Img-Parc-National {
-    height: 470px;
-    position: absolute;
-    top: -3%;
-    left: -39%;
-}
 
 footer {
     margin-left: 0%;
